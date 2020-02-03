@@ -15,8 +15,8 @@ Math.​abs​((x1 - x2)) + Math.​abs(​(y1 - y2));
 
 if ((x_val <= x1 && x1 <= x_val + width) && (y_val <= y1 && y1 <= y_val + height))
 
-result = true;
+  result = true;
 
 else
 
-result = false;
+  result = false;
