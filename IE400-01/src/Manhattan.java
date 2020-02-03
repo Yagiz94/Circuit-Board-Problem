@@ -93,17 +93,17 @@ public class Manhattan {
 		/* Printing the values */
 		System.out.println("Drilled x coordinates: " + drilled_points_x.toString());
 		System.out.println("Drilled y coordinates: " + drilled_points_y.toString());
-		System.out.println("x_coordinates.length: " + +drilled_points_x.size());
-		System.out.println("y_coordinates.length: " + +drilled_points_y.size());
-		System.out.println("\nTotal distance travelled is: " + total_distance);
+		System.out.println("x_coordinates.length: " + drilled_points_x.size());
+		System.out.println("y_coordinates.length: " + drilled_points_y.size());
+		System.out.println("\nTotal distance traveled is: " + total_distance);
 
 		/* Print all output to a text file */
 		PrintWriter writer = new PrintWriter("output.txt", "UTF-8");
 		writer.println("Drilled x coordinates: " + drilled_points_x.toString());
 		writer.println("Drilled y coordinates: " + drilled_points_y.toString());
-		writer.println("x_coordinates.length: " + +drilled_points_x.size());
-		writer.println("y_coordinates.length: " + +drilled_points_y.size());
-		writer.println("\nTotal distance travelled is: " + total_distance);
+		writer.println("x_coordinates.length: "  + drilled_points_x.size());
+		writer.println("y_coordinates.length: " + drilled_points_y.size());
+		writer.println("\nTotal distance traveled is: " + total_distance);
 		writer.close();
 	}
 

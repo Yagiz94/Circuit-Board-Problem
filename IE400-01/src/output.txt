@@ -3,4 +3,4 @@ Drilled y coordinates: [8, 8, 14, 16, 23, 21, 21, 20, 27, 32, 29, 31, 42, 41, 46
 x_coordinates.length: 27
 y_coordinates.length: 27
 
-Total distance travelled is: 274
+Total distance traveled is: 274
